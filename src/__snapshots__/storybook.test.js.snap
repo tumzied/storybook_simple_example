@@ -1,0 +1,1075 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Button Large 1`] = `
+<button
+  className="storybook-button storybook-button--large storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Primary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--primary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Secondary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Small 1`] = `
+<button
+  className="storybook-button storybook-button--small storybook-button--secondary"
+  style={null}
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots TaskComponent/Task Archived 1`] = `
+<div
+  className="list-item"
+>
+  <label
+    className="checkbox"
+    onClick={[Function]}
+  >
+    <input
+      defaultChecked={true}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-click-space"
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    data-state="TASK_ARCHIVED"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Storyshots TaskComponent/Task Default 1`] = `
+<div
+  className="list-item"
+>
+  <label
+    className="checkbox"
+    onClick={[Function]}
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-click-space"
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    data-state="TASK_INBOX"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="pinTask-1"
+        className="icon-star"
+        id="pinTask-1"
+      >
+        <svg
+          className="bi bi-archive"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskComponent/Task Pinned 1`] = `
+<div
+  className="list-item"
+>
+  <label
+    className="checkbox"
+    onClick={[Function]}
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-click-space"
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    data-state="TASK_PINNED"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="pinTask-1"
+        className="icon-star"
+        id="pinTask-1"
+      >
+        <svg
+          className="bi bi-archive-fill"
+          fill="currentColor"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"
+          />
+        </svg>
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskComponent/TaskList Default 1`] = `
+<div
+  className="listItems"
+>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do code"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-1"
+          className="icon-star"
+          id="pinTask-1"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do Work"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-2"
+          className="icon-star"
+          id="pinTask-2"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="solve problem"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-3"
+          className="icon-star"
+          id="pinTask-3"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="eat"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-4"
+          className="icon-star"
+          id="pinTask-4"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="workout"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-5"
+          className="icon-star"
+          id="pinTask-5"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskComponent/TaskList Empty 1`] = `
+<div
+  className="list-items"
+>
+  <div
+    className="wrapper-message"
+  >
+    <span
+      className="icon-check"
+    >
+      <svg
+        className="bi bi-check2-circle"
+        fill="currentColor"
+        height="50"
+        viewBox="0 0 16 16"
+        width="50"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"
+        />
+        <path
+          d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"
+        />
+      </svg>
+    </span>
+    <div
+      className="title-message"
+    >
+      You have no tasks
+    </div>
+    <div
+      className="subtitle-message"
+    >
+      Sit back and relax
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskComponent/TaskList Loading 1`] = `
+<div
+  className="list-items"
+>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+  <div
+    className="loading-item"
+  >
+    <span
+      className="checkbox"
+    >
+      m
+    </span>
+    <span
+      className="loading-text"
+    >
+      <span>
+        Loading
+      </span>
+       
+      <span>
+        cool
+      </span>
+       
+      <span>
+        state
+      </span>
+    </span>
+    <span
+      className="actions"
+    >
+      icon
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskComponent/TaskList Pinned 1`] = `
+<div
+  className="listItems"
+>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do code"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_PINNED"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-1"
+          className="icon-star"
+          id="pinTask-1"
+        >
+          <svg
+            className="bi bi-archive-fill"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do Work"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_PINNED"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-2223"
+          className="icon-star"
+          id="pinTask-2223"
+        >
+          <svg
+            className="bi bi-archive-fill"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do code"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_PINNED"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-34"
+          className="icon-star"
+          id="pinTask-34"
+        >
+          <svg
+            className="bi bi-archive-fill"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="Do code"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_PINNED"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-43"
+          className="icon-star"
+          id="pinTask-43"
+        >
+          <svg
+            className="bi bi-archive-fill"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="eat"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-4"
+          className="icon-star"
+          id="pinTask-4"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="list-item"
+  >
+    <label
+      className="checkbox"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-click-space"
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        type="text"
+        value="workout"
+      />
+    </div>
+    <div
+      className="actions"
+      data-state="TASK_INBOX"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <span
+          aria-label="pinTask-5"
+          className="icon-star"
+          id="pinTask-5"
+        >
+          <svg
+            className="bi bi-archive"
+            fill="currentColor"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
