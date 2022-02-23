@@ -39,8 +39,8 @@ Error.args = {
 export const WithInteraction = Template.bind({});
 WithInteraction.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement);
-  // Simulates pinning the first tasks
+  // Simulates pinning the  tasks
   await fireEvent.click(canvas.getByLabelText("pinTask-4"));
-  // Simulates pinning the third tasks
+  // Simulates pinning the  tasks
   await fireEvent.click(canvas.getByLabelText("pinTask-3"));
 };
